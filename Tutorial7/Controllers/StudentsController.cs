@@ -14,6 +14,9 @@ using Tutorial7.Models;
 namespace Tutorial7.Controllers
 {
 
+    [ApiController]
+    [Route("api/[controller]")]
+
     public class StudentsController : ControllerBase
     {
         public IConfiguration Configuration { get; set; }
